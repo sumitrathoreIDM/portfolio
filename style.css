@@ -253,17 +253,14 @@ img { max-width: 100%; display: block; }
   justify-content: center;
 }
 .hero-avatar {
-  width: 200px; height: 200px;
-  border-radius: 50%;
-  background: var(--text);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: -2px;
-  box-shadow: var(--shadow-hover);
+  width: 360px;
+  height: auto;
+}
+.hero-avatar img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 .floating-badge {
   position: absolute;
